@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Privacy Policy - Stripe Invoice Bulk Downloader</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #111; }
+    h1 { font-size: 28px; }
+    h2 { font-size: 20px; margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p><strong>Last updated:</strong> November 25, 2026</p>
+
+  <h2>Overview</h2>
+  <p>Stripe Invoice Bulk Downloader is a browser extension that helps you download selected invoices from your Stripe Dashboard as a ZIP file. All processing happens locally in your browser. We do not collect, store, or transmit any of your data to external servers.</p>
+
+  <h2>Data We Collect</h2>
+  <p>This extension does <strong>not</strong> collect personal information, financial data, or browsing history.</p>
+  <ul>
+    <li><strong>Local storage only:</strong> We store a simple usage counter and Pro status flag in <code>chrome.storage.local</code> on your device to enforce the free tier limit. This data never leaves your browser.</li>
+    <li><strong>Invoice files:</strong> PDF downloads are fetched directly from Stripe using your existing login session and are packaged into a ZIP that is saved only to your computer.</li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>activeTab / host_permissions (dashboard.stripe.com):</strong> Required to inject the selection UI and read invoice links on the Stripe Invoices page.</li>
+    <li><strong>downloads:</strong> Required to save the generated ZIP file to your computer.</li>
+    <li><strong>storage:</strong> Required to remember your free usage count locally.</li>
+  </ul>
+
+  <h2>Third Parties</h2>
+  <p>We do not share any data with third parties. Payment processing for the Pro upgrade (if you choose to purchase) is handled by the payment provider you choose (e.g. Lemon Squeezy). That provider has its own privacy policy.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions about this policy, contact the developer at: <em>[your-email@example.com]</em></p>
+</body>
+</html>
